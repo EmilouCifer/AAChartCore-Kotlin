@@ -90,7 +90,10 @@ class AALegend {
         return this
     }
 
-
+    fun reversed(prop: Boolean?): AALegend {
+        this.reversed = prop
+        return this
+    }
 }
 
 class AAItemStyle {

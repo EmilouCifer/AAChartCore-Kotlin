@@ -28,6 +28,7 @@ class AALegend {
     var y: Number? = null
     var floating: Boolean? = null
     var labelFormat: String? = null
+    var reversed: Boolean? = null
 
     fun layout(prop: AAChartLayoutType): AALegend {
         layout = prop.value
